@@ -1,1 +1,117 @@
 /* your code here */
+body {
+  font-family: Arial, sans-serif;
+  background: #00d084;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.product {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  overflow: hidden;
+  max-width: 900px;
+}
+
+.product__photo {
+  flex: 1;
+  background: #a4d17d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-container {
+  text-align: center;
+}
+
+.photo-main img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.photo-album ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  list-style: none;
+}
+
+.photo-album ul li {
+  margin: 5px;
+}
+
+.photo-album ul li img {
+  width: 50px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.product__details {
+  flex: 1;
+  padding: 30px;
+}
+
+.product__details h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e63946;
+  margin: 20px 0;
+}
+
+.variant h3, 
+.description h3 {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.variant ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.variant ul li {
+  margin: 5px;
+}
+
+.variant ul li img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.description ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #444;
+}
+
+.add-to-cart {
+  margin-top: 20px;
+  background: #e63946;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background: #c92838;
+}
